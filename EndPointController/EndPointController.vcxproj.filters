@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Pre-compiled headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleIni.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="PolicyConfig.h">
+      <Filter>EndPointController</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPointController.h">
+      <Filter>EndPointController</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsIniFile.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsInterface.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="string_t.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Pre-compiled headers</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPointController.cpp">
+      <Filter>EndPointController</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsIniFile.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="string_t.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Pre-compiled headers">
+      <UniqueIdentifier>{df6a3be1-617f-499d-a949-335a6a8040a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{cf6c11ed-09c2-4786-8908-6d052ebdb859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EndPointController">
+      <UniqueIdentifier>{c151174c-c370-4280-91ff-ba10c91cf2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{04d267d2-3885-461f-8c44-29abe2150f4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
