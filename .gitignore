@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EndPointController.VC.opendb
+/EndPointController.sdf
+/Release
+/Debug
+/EndPointController/Debug
+/EndPointController/Release
+/.vs/EndPointController/v14
